@@ -12,7 +12,7 @@ This Card allows you to create a card with only text like a label. It is possibl
 | scale | string | **Optional** | The size of the text. Default: 50px
 | colour | string | **Optional** | The color of the text. Default "rgb(0,0,0)" 
 
-## Instalacion
+## Installation
 
 ### Step 1
 
