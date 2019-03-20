@@ -1,4 +1,4 @@
 # Custom Cards Lovelace
 
 
-Un coleccion de Custon Cards para Lovelace diseñadas por mi mismo y que satisfacen ciertos problemas de interfaz asi como permiten crear interfaces claras y sencillas a traves de trucos visuales
+A collection of Custom Cards for Lovelace designed by myself and that satisfy certain interface problems as well as allow to create clear and simple interfaces through visual tricks.
