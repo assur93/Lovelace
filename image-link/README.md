@@ -20,8 +20,7 @@ Install `img-link` by copying `img-link.js`from this repo to `<config directory>
 **Example:**
 
 ```bash
-wget https://raw.githubusercontent.com/custom-cards/state-element/master/state-element.js
-mv state-element.js /config/www/
+wget https://raw.githubusercontent.com/assur93/Lovelace/master/image-link/img-link.js
 ```
 
 ### Step 2
