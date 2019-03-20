@@ -8,7 +8,7 @@ This Card allows you to create a card with only text like a label. It is possibl
 | Name | Type | Requirement | Description
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `custom:label-card`
-| title | string | **Required** | The text you want to show, ex. " Room "
+| title | string | **Optional** | The text you want to show, ex. " Room "
 | scale | string | **Optional** | The size of the text. Default: 50px
 | colour | string | **Optional** | The color of the text. Default "rgb(0,0,0)" 
 
