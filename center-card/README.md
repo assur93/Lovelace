@@ -1,36 +1,36 @@
-# Image link
+# Center Card
 
-This Card allows you to create banner linking a url to a image.
+This Card allows you to create a card with only text like a label. It is possible to change the size.
 
 
 ## Options
 
 | Name | Type | Requirement | Description
 | ---- | ---- | ------- | -----------
-| type | string | **Required** | `custom:img-link`
-| url | string | **Required** | A url you want to link, ex. "https://www.home-assistant.io/"
-| image | string | **Required** | The image you want to show, ex. "/local/.../home.png"
+| type | string | **Required** | `custom:center-card`
+| title | string | **Required** | The text you want to show, ex. " Room "
+| scale | string | **Optional** | The size of the text. Default: 50px
 
 ## Instalacion
 
 ### Step 1
 
-Install `img-link` by copying `img-link.js`from this repo to `<config directory>/www/img-link.js` on your Home Assistant instanse.
+Install `center-card` by copying `center-card.js`from this repo to `<config directory>/www/center-card.js` on your Home Assistant instanse.
 
 **Example:**
 
 ```bash
-wget https://raw.githubusercontent.com/assur93/Lovelace/master/image-link/img-link.js
+wget https://raw.githubusercontent.com/assur93/Lovelace/master/icenter-card/center-card.js
 ```
 
 ### Step 2
 
-Link `img-link` inside you `ui-lovelace.yaml`.
+Link `center-card` inside you `ui-lovelace.yaml`.
 
 ```yaml
 resources:
-  - url: /local/img-link.js?v=0
-    type: js
+  - url: /local/center-card.js
+    type: module
 ```
 
 ### Step 3
@@ -38,9 +38,9 @@ resources:
 Add a custom element in your `ui-lovelace.yaml`
 
 ```yaml
-      - type: custom:img-link
-        image: /local/icons/banner.png
-        url: https://www.home-assistant.io/
+      - type: custom:center-card
+        title: Room
+        scale: 20px
 ```
 
 ![example](example.png)
