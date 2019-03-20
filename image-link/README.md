@@ -11,7 +11,7 @@ This Card allows you to create banner linking a url to a image.
 | url | string | **Required** | A url you want to link, ex. "https://www.home-assistant.io/"
 | image | string | **Required** | The image you want to show, ex. "/local/.../home.png"
 
-## Instalacion
+## Installation
 
 ### Step 1
 
