@@ -1,4 +1,4 @@
-# Center Card
+# Label Card
 
 This Card allows you to create a card with only text like a label. It is possible to change the size, the position of the text and the colour.
 
