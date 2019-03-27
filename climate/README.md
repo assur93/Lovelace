@@ -39,6 +39,6 @@ Add a thermostat element in your `ui-lovelace.yaml`
 
 ### Options
 
-Before installing the thermostat in Home Assistant, configure the thermostat following the guide.pdf
+Before installing the thermostat in Home Assistant, configure the thermostat following the config-Beok.pdf
 
 ![example](example.png)
