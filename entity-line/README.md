@@ -22,7 +22,7 @@ Install `custom-line` by copying `custom-line.js`from this repo to `<config dire
 **Example:**
 
 ```bash
-wget https://raw.githubusercontent.com/assur93/Lovelace/master/custom-line/custom-line.js
+wget https://raw.githubusercontent.com/assur93/Lovelace/master/entity-line/custom-line.js
 ```
 
 ### Step 2
