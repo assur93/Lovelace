@@ -5,6 +5,8 @@ This Card allows you to create a simple Beok thermostat.
 
 ## Installation
 
+Before installing the thermostat in Home Assistant, configure the thermostat following the config-Beok.pdf
+
 ### Step 1
 
 Install `broadlinkHysen` by copying `broadlinkHysen.py`from this repo to `<config directory>/custom_components/climate/broadlinkHysen.py` on your Home Assistant instanse.
@@ -37,8 +39,5 @@ Add a thermostat element in your `ui-lovelace.yaml`
         name: Title
 ```
 
-### Options
-
-Before installing the thermostat in Home Assistant, configure the thermostat following the config-Beok.pdf
 
 ![example](example.png)
