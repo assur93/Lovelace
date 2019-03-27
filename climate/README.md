@@ -34,7 +34,11 @@ Add a thermostat element in your `ui-lovelace.yaml`
 ```yaml
       - type: thermostat
         entity: climate.your_name
-        name: <i>Title</i>
+        name: Title
 ```
+
+### Options
+
+Before installing the thermostat in Home Assistant, configure the thermostat following the guide.pdf
 
 ![example](example.png)
